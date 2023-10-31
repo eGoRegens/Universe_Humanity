@@ -1,11 +1,11 @@
 public class AgeDifference {
     public static void main(String[] args) {
-        final long Age_Of_The_Universe = 13000000000L;
-        final long Age_Of_The_Humans = 100000;
-        long ageDifference = Age_Of_The_Universe / Age_Of_The_Humans;
+        final long AGE_UNIVERSE = 13000000000L;
+        final long AGE_HUMANS = 100000;
+        final long AGE_DIFFERENCE = AGE_UNIVERSE / AGE_HUMANS;
 
-        System.out.println("Возраст вселенной " + Age_Of_The_Universe + " лет.");
-        System.out.println("Возраст человечества " + Age_Of_The_Humans + " лет.");
-        System.out.println("Возраст вселенной больше в " + ageDifference + " раз больше человечества.");
+        System.out.println("Возраст вселенной " + AGE_UNIVERSE + " лет.");
+        System.out.println("Возраст человечества " + AGE_HUMANS + " лет.");
+        System.out.println("Возраст вселенной больше в " + AGE_DIFFERENCE + " раз больше человечества.");
     }
 }
